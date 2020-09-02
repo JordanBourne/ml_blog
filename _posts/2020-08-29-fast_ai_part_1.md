@@ -47,7 +47,7 @@ layout: notebook
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h1 id="My-Side-Project">My Side Project<a class="anchor-link" href="#My-Side-Project"> </a></h1><p>The goal of this project is to be able to take a screenshot of a game of Valorant, and determine what agent they are playing. For those unfamiliar with the game, the only thing you need to know is that there are multiple different characters - referred to as agents - that you can play, and the only indication for an observer to know which one you're playing is by the icons along the bottom of the screen as seen here:</p>
-<p>&lt;&lt; INSERT IMAGE &gt;&gt;</p>
+<p><img src="/ml_blog/images/copied_from_nb/../images/valorant_screenshot.png" alt=""></p>
 <p>The idea of this is to be able to use this classifier to enhance a directory of Valorant streamers by displaying what agent the person is playing without having to load up multiple streams to find the one you're looking for.</p>
 <h3 id="Gathering-the-Data">Gathering the Data<a class="anchor-link" href="#Gathering-the-Data"> </a></h3><p>To gather the data, I built a web scraper that loads up various Twitch streams and takes a screenshot of the video portion and saves it off. If you're curious about the code to do this, <a href="https://github.com/JordanBourne/TwitchScreenGrab">view it here</a></p>
 <p>After my first run of this, I ended up with a little over 300 screenshots that I sorted into folders under the respective agent name, uploaded it to my Paperspace Jupyter notebook, and gave it a run.</p>
